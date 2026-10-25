@@ -1,4 +1,4 @@
-<h1 align="center"> Setup Windows Server </h1>
+<h1 align="center"> Setup Windows Server 2022 </h1>
 
 <img width="1536" height="800" alt="image" src="https://github.com/user-attachments/assets/9849833a-90f7-460e-894f-db20ff7e9ee1" />
 
