@@ -123,6 +123,3 @@ Now we got success to setup **Windwos Server**:
 
 
 ---
-
-
-<h2 align="center"> k4n0ng </h2>
