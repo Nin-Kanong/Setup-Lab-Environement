@@ -1,0 +1,243 @@
+<h1 align="center"> How To Setup Windows Server 2025 on VMware </h1>
+
+<img width="1536" height="850" alt="image" src="https://github.com/user-attachments/assets/ba48f46e-34d9-44a0-b379-c61dd19f2e98" />
+
+
+---
+
+## Setup Walkthrough 
+
+### Download Windows Server file
+
+Go to: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025
+
+<img width="1917" height="952" alt="image" src="https://github.com/user-attachments/assets/ecff5615-acfd-4a87-9439-3632df16059a" />
+
+
+The wait unil it compleed.
+
+
+
+---
+
+
+### Start setup
+
+Open **VMware Workstation**:
+
+<img width="1917" height="1075" alt="image" src="https://github.com/user-attachments/assets/df1291be-4510-4a93-9539-475dfad3544b" />
+
+
+
+<img width="495" height="526" alt="image" src="https://github.com/user-attachments/assets/cc0da959-0e41-404a-a390-8eb8be23a2a6" />
+
+
+<img width="492" height="522" alt="image" src="https://github.com/user-attachments/assets/09d87f55-94d7-4931-aabf-e556d294fe5c" />
+
+
+<img width="492" height="526" alt="image" src="https://github.com/user-attachments/assets/70215fe2-0c0d-40bd-8f4c-6d120b8003cb" />
+
+
+So in this I choose `100.0 GB` for my Windows Server:
+
+<img width="492" height="527" alt="image" src="https://github.com/user-attachments/assets/42a21856-6ba0-4f08-9d2e-91e4b782bfef" />
+
+
+<img width="492" height="522" alt="image" src="https://github.com/user-attachments/assets/e1741eeb-29ab-4391-9bda-10ea866d8810" />
+
+
+<img width="883" height="585" alt="image" src="https://github.com/user-attachments/assets/dd88354f-d543-4761-9e28-3aeef17c3625" />
+
+
+<img width="882" height="371" alt="image" src="https://github.com/user-attachments/assets/556f5037-294a-4893-aa18-1a40a612e1ab" />
+
+
+<img width="877" height="401" alt="image" src="https://github.com/user-attachments/assets/0df05d4f-dd98-494a-aedb-a5601f773917" />
+
+
+<img width="1157" height="830" alt="image" src="https://github.com/user-attachments/assets/1eb9eb62-4fe4-43d7-b9e7-98a45eb189d2" />
+
+
+
+In this choose `VMnet2 (Host-Only)` for this lab:
+
+<img width="881" height="881" alt="image" src="https://github.com/user-attachments/assets/03d58dd9-3c26-4917-9d40-055c767cfa25" />
+
+
+<img width="492" height="527" alt="image" src="https://github.com/user-attachments/assets/b1e187e6-6f41-451d-8dca-5a52aa216017" />
+
+
+Now we completed config it.
+
+
+
+
+Start our machine:
+
+<img width="1912" height="1046" alt="image" src="https://github.com/user-attachments/assets/c3dbf7e5-880a-4b79-b4d6-9349b83e2f04" />
+
+
+In this we need to press any key fast to continue:
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/90cc3c14-5728-472f-91d9-f01a90075aa9" />
+
+
+
+Press `Enter`:
+<img width="1498" height="905" alt="image" src="https://github.com/user-attachments/assets/09be020a-32e8-4acc-bec8-2718c50fc079" />
+
+
+<img width="707" height="565" alt="image" src="https://github.com/user-attachments/assets/e98650bb-a346-498b-b0e1-9886bf245786" />
+
+
+
+<img width="715" height="566" alt="image" src="https://github.com/user-attachments/assets/572f7026-627d-4009-89c7-7fecced4e6a1" />
+
+
+<img width="715" height="562" alt="image" src="https://github.com/user-attachments/assets/41e4f39a-0a79-4f19-8e70-3a28c3d8d1fc" />
+
+
+<img width="711" height="557" alt="image" src="https://github.com/user-attachments/assets/ab3e6dfc-dd23-4177-9bdf-abfa24020dec" />
+
+
+<img width="710" height="551" alt="image" src="https://github.com/user-attachments/assets/4c8a7069-396b-4125-96f1-7a2e2fdac50b" />
+
+
+
+<img width="712" height="562" alt="image" src="https://github.com/user-attachments/assets/f95d9bf4-4081-48eb-b89a-5c341634e0bd" />
+
+
+<img width="707" height="557" alt="image" src="https://github.com/user-attachments/assets/96d781e9-8ab2-4a9b-918d-ce70586d1eb9" />
+
+
+
+Now it start install, just wait a few minutes:
+<img width="1021" height="767" alt="image" src="https://github.com/user-attachments/assets/c003163a-1568-4fe1-a99a-8ed0e7c458e4" />
+
+
+After wait a few minute it will show:
+<img width="1457" height="757" alt="image" src="https://github.com/user-attachments/assets/d6c65bdd-79d4-4f27-83bd-6e865d9eff79" />
+
+
+Then wait it again until it completed.
+
+
+After we wait a few minute then it will show to input password:
+
+<img width="1005" height="745" alt="image" src="https://github.com/user-attachments/assets/0faf2ca5-d5da-498e-8514-7e63d13a4b7f" />
+
+
+After we ready input it just click on `Finish`.
+
+
+Now we see this:
+<img width="1572" height="852" alt="image" src="https://github.com/user-attachments/assets/cdcbbaaf-60e2-4cf3-94f5-d905a90c9870" />
+
+
+In this just press `Ctrl + Alt + Delete`.
+
+
+
+Or just `Right-Click` on our `Windows Server 2025`:
+
+<img width="1917" height="982" alt="image" src="https://github.com/user-attachments/assets/30231713-80a3-4a9e-ba6e-d55f5ee1d627" />
+
+
+Now we go to login:
+<img width="1563" height="840" alt="image" src="https://github.com/user-attachments/assets/adeb15d3-b766-4574-a238-b62b7ef835fc" />
+
+
+Then it will show:
+
+<img width="1017" height="765" alt="image" src="https://github.com/user-attachments/assets/17362ea9-96b2-49da-abe0-d31535d4bcb9" />
+
+
+Then it show this:
+<img width="1575" height="857" alt="image" src="https://github.com/user-attachments/assets/e6269cc2-1119-4a45-8f58-61164b982629" />
+
+
+
+But in this it show small:
+<img width="1917" height="1060" alt="image" src="https://github.com/user-attachments/assets/b8b9df52-51ff-40a9-94bc-1801bf9b7bf0" />
+
+
+Then I make it to full screen:
+
+<img width="1917" height="975" alt="image" src="https://github.com/user-attachments/assets/fded9506-9102-48af-94d3-5ac753ba34af" />
+
+
+Go to `File Eplorer` -> ``Double-Click`` on `Setup`:
+<img width="1902" height="867" alt="image" src="https://github.com/user-attachments/assets/470d9bde-7b81-4b76-9b02-09ec6faf8e2a" />
+
+
+<img width="1695" height="837" alt="image" src="https://github.com/user-attachments/assets/3c5c2f33-a371-4cae-bf45-c6041aa0c7de" />
+
+
+<img width="1842" height="855" alt="image" src="https://github.com/user-attachments/assets/bd58309b-83a0-4595-ac87-e33d4786c704" />
+
+
+<img width="1145" height="811" alt="image" src="https://github.com/user-attachments/assets/a05b3558-6541-454b-a383-6faff1babd86" />
+
+
+
+Now we see full screen:
+
+<img width="1912" height="1078" alt="image" src="https://github.com/user-attachments/assets/146d0b4b-fa3b-4618-8ac7-e1164268caef" />
+
+After click on `Finish`.
+
+
+Then restart:
+
+<img width="1352" height="832" alt="image" src="https://github.com/user-attachments/assets/a65b0e2d-7891-4088-81f9-ff10a1335db9" />
+
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/92fd4abc-df67-4dd1-b1d3-0e55b3d86361" />
+
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/b22b05ee-fdac-493c-b141-bd4368038e8e" />
+
+
+Now we completed to setup Windows Server 2025.
+
+----
+
+
+
+### Change hostname:
+
+Open **PowerShell** as `Administrator`.
+
+Then check our hostname:
+````ps1
+PS C:\WINDOWS\system32> hostname
+WIN-UFA6918U7CF
+````
+
+> In this my hostname is `WIN-UFA6918U7CF`.
+
+
+Then I want to change it to `DC01`:
+````ps1
+Rename-Computer -NewName "DC01" -Restart
+````
+
+In this after we press `Enter` it will restart the computer:
+
+<img width="1408" height="618" alt="image" src="https://github.com/user-attachments/assets/fee6ca99-17da-479e-874f-772505c6c0b6" />
+
+
+After finished restart then login, open **PowerShell** then check it again:
+
+````ps1
+PS C:\WINDOWS\system32> hostname
+DC01
+````
+
+> Now my Windows server have hostname `DC01`.
+
+
+
+Now we completed to setup Windows Server.
+
+---
