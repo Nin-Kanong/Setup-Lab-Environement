@@ -1,1 +1,307 @@
 
+<h1 align="center"> Setup Windows 11 - CLIENT01 </h1>
+
+
+
+---
+
+
+## Setup Walkthrough 
+
+### Download File ISO:
+
+Go to: https://www.microsoft.com/en-us/software-download/windows11
+
+
+1. Scroll down to the **Download Windows 11 Disk Image (ISO) for x64 devices** section.
+2. Select **Windows 11 (multi-edition ISO for x64 devices)** from the drop-down menu.
+3. Click **Download**.
+4. Select your preferred product **Language** (e.g., English International or English United States)
+5. click **Confirm**.
+6. Click the **64-bit Download** button to start downloading the file (approx. 8.4 GB). Note that the direct download link is valid for 24 hours from creation.
+
+---
+
+
+### Seup Windows 11 on VMware
+
+Open **VMware Workstation**:
+
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/ffab351b-a347-447c-8aec-9b62d91841eb" />
+
+<img width="497" height="522" alt="image" src="https://github.com/user-attachments/assets/21c3b7bf-bb9c-42fb-9433-0cb18dd6a818" />
+
+
+<img width="500" height="526" alt="image" src="https://github.com/user-attachments/assets/8370b381-d037-4eb6-99ab-d8a94744f2bf" />
+
+
+<img width="496" height="530" alt="image" src="https://github.com/user-attachments/assets/09b5808f-44e7-4889-bf92-73161a1c013b" />
+
+
+<img width="490" height="517" alt="image" src="https://github.com/user-attachments/assets/97f30058-73d8-4965-acf8-f7c614eaef82" />
+
+
+<img width="495" height="527" alt="image" src="https://github.com/user-attachments/assets/fce642af-af23-41bb-b274-2de541f03a5d" />
+
+
+<img width="497" height="521" alt="image" src="https://github.com/user-attachments/assets/93bf63b7-d3ae-467e-942f-05f0f84aa2e3" />
+
+Which disk option should you choose?
+- **Split virtual disk into multiple files**: Easier to move or copy the VM between storage devices, but may slightly reduce performance.
+- **Store virtual disk as a single file**: Simpler to manage as one large virtual disk file and may offer slightly better performance.
+
+
+<img width="492" height="520" alt="image" src="https://github.com/user-attachments/assets/0f0f4edf-d626-4913-8bc4-b51f2e320839" />
+
+
+<img width="882" height="341" alt="image" src="https://github.com/user-attachments/assets/398e1ed5-3a88-4670-bce6-65059aed3b49" />
+
+
+- **Number of processors**: The number of virtual CPU sockets assigned to the VM.
+- **Cores per processor**: The number of CPU cores inside each virtual CPU socket.
+
+> A **socket** is the connection point where a physical CPU is installed on a computer's motherboard.
+
+<img width="875" height="387" alt="image" src="https://github.com/user-attachments/assets/cb4905c5-2904-464f-aed0-c086cd45dd5c" />
+
+
+<img width="1152" height="822" alt="image" src="https://github.com/user-attachments/assets/d3a31a81-4e23-491b-9e0f-1cf507d70069" />
+
+
+<img width="882" height="876" alt="image" src="https://github.com/user-attachments/assets/f4932390-58bc-4867-bc1b-2f90d664e8f1" />
+
+So in this I choose **Host-Only**, cause I have ready build it for my lab.
+
+> **Note**: In this we can choose **NAT**.
+
+
+
+
+<img width="500" height="522" alt="image" src="https://github.com/user-attachments/assets/2ff749b1-9d48-42e2-bd53-8a21533696cf" />
+
+
+
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/d414dba3-3860-470f-bded-d1d2997f19cc" />
+
+
+In this just click on it then press any key fast:
+
+<img width="1572" height="873" alt="image" src="https://github.com/user-attachments/assets/2711e27a-bc1d-44b2-8193-5c82cc105833" />
+
+
+
+Now it started:
+
+<img width="1545" height="827" alt="image" src="https://github.com/user-attachments/assets/fafd1d19-62f7-4a19-a289-21a1d827cf10" />
+
+
+<img width="617" height="575" alt="image" src="https://github.com/user-attachments/assets/2ad74570-cb59-4435-a477-9bf0764997ca" />
+
+
+Then click on **Install**:
+
+<img width="612" height="461" alt="image" src="https://github.com/user-attachments/assets/2a91d35d-418c-4c4b-b817-fa85d35ab054" />
+
+
+<img width="1022" height="770" alt="image" src="https://github.com/user-attachments/assets/f5616663-80be-4878-8683-f313e59372f4" />
+
+
+Then select **Windows 11 Pro**:
+
+<img width="641" height="480" alt="image" src="https://github.com/user-attachments/assets/018d1ea2-b3ba-425b-993a-e9e299a6ab23" />
+
+
+<img width="642" height="472" alt="image" src="https://github.com/user-attachments/assets/5d3ba750-7007-4b23-bc34-0dd2212dd6de" />
+
+
+In this click on **Custom: Install Windows 11 only (Advanced)**:
+
+<img width="642" height="477" alt="image" src="https://github.com/user-attachments/assets/0aed797f-82ba-4330-8f8c-447056b0cc56" />
+
+
+<img width="646" height="549" alt="image" src="https://github.com/user-attachments/assets/23703dc5-74b5-4167-89a7-68bc528ba857" />
+
+
+Now it started install:
+
+<img width="635" height="477" alt="image" src="https://github.com/user-attachments/assets/ee735787-442b-477b-9835-0462022b337a" />
+
+
+In this just wait a few minute.
+
+
+
+Now it finished, and it will show this:
+
+<img width="1202" height="675" alt="image" src="https://github.com/user-attachments/assets/212b2f6d-f5f9-44c9-ab0b-8b3a305b9a15" />
+
+
+> In this just wait a few second, to wait it finished.
+
+
+After wait a few second we will see:
+
+<img width="1017" height="760" alt="image" src="https://github.com/user-attachments/assets/12526b82-c036-4e44-a379-f669d8835f35" />
+
+
+
+<img width="1006" height="755" alt="image" src="https://github.com/user-attachments/assets/a69ad2a5-81c6-443f-b4b3-516498e46697" />
+
+
+<img width="997" height="757" alt="image" src="https://github.com/user-attachments/assets/93ebdfe1-69f2-4044-a8ee-604b657b9c29" />
+
+
+
+<img width="907" height="647" alt="image" src="https://github.com/user-attachments/assets/0f1414de-5b51-42c4-accc-fc6fd5adb3bc" />
+
+
+If we see this:
+
+<img width="1015" height="761" alt="image" src="https://github.com/user-attachments/assets/63b49805-adee-4050-9de6-0ac28ae76fae" />
+
+
+> **Note**: In this it show this cause I set it as **Host-Only**, if in this we use **NAT** it maybe not show this, but we will stuill need to by pass it in next.
+
+In this we just press **Shift + F10**, or **Shift + Fn + F10**:
+
+<img width="1017" height="756" alt="image" src="https://github.com/user-attachments/assets/f2438e8a-5d93-4fe7-bd56-d30686772afd" />
+
+
+
+Then type:
+````cmd
+OOBE\BYPASSNRO
+````
+<img width="960" height="298" alt="image" src="https://github.com/user-attachments/assets/ce40d8f7-fd59-469c-b080-6688cd9753a5" />
+
+
+> **Note**: In this if we type command above but still not restat, then type this again: `start ms-cxh:localonly`.
+
+<img width="1268" height="637" alt="image" src="https://github.com/user-attachments/assets/ec131503-87b4-4301-afdf-c448d92060ea" />
+
+
+Wait for the **restart**. our Windows 11 virtual machine should restart automatically.
+
+<img width="996" height="735" alt="image" src="https://github.com/user-attachments/assets/dc9a5ca9-7f8d-4db8-a8db-b3a92f58e6e0" />
+
+
+
+Then it show this again:
+
+<img width="915" height="662" alt="image" src="https://github.com/user-attachments/assets/ce5e77ce-c21f-4fbf-9c7d-0a889bcdb149" />
+
+
+
+<img width="902" height="647" alt="image" src="https://github.com/user-attachments/assets/69737ae3-cc13-4450-add5-006a289a0a42" />
+
+
+<img width="897" height="642" alt="image" src="https://github.com/user-attachments/assets/13f25f27-7031-4258-b159-d4299811d210" />
+
+
+<img width="912" height="652" alt="image" src="https://github.com/user-attachments/assets/e0a3d0ed-4a43-4297-b089-b0d764cec301" />
+
+
+<img width="917" height="662" alt="image" src="https://github.com/user-attachments/assets/1a1aed80-9455-4095-afe4-b6e5414864e7" />
+
+
+In this we can use others name:
+
+<img width="912" height="660" alt="image" src="https://github.com/user-attachments/assets/3dc82a57-30b2-4ce9-bf85-087d059dca5e" />
+
+
+Then set password:
+
+<img width="916" height="661" alt="image" src="https://github.com/user-attachments/assets/2693960f-9865-436e-b6f8-d4e22410c3e8" />
+
+
+<img width="920" height="657" alt="image" src="https://github.com/user-attachments/assets/5ba6660f-3978-4ff6-95a7-fb01a8b7c8b8" />
+
+
+
+
+Then it will show this and we can select others:
+
+<img width="913" height="662" alt="image" src="https://github.com/user-attachments/assets/1820d00c-632f-43f5-a09e-8fda1885498f" />
+
+
+Then click **Next** until the end:
+
+<img width="908" height="646" alt="image" src="https://github.com/user-attachments/assets/10986d26-5f0a-4eed-bc4c-5214113102a9" />
+
+
+<img width="905" height="653" alt="image" src="https://github.com/user-attachments/assets/19e227e5-447a-4b6e-9eb7-74255876ce18" />
+
+
+<img width="915" height="667" alt="image" src="https://github.com/user-attachments/assets/560253dd-87b0-41e9-9bb6-62e1b3b950d3" />
+
+
+<img width="906" height="661" alt="image" src="https://github.com/user-attachments/assets/12c6c7c1-2bae-4275-95e3-bc36395c1b1a" />
+
+
+
+<img width="907" height="647" alt="image" src="https://github.com/user-attachments/assets/a3ed54b1-95c0-46b9-9dfa-6b98c3f31c38" />
+
+
+Now it will start setup:
+
+<img width="1126" height="588" alt="image" src="https://github.com/user-attachments/assets/ab21ddde-b0b7-4f07-bed8-58b90d17f29b" />
+
+
+Wait a few second.
+
+
+
+Now we got successful to setup Windows 11:
+
+<img width="1917" height="902" alt="image" src="https://github.com/user-attachments/assets/2ed92bd6-bda6-486d-940c-2a627b5333e5" />
+
+
+But in this it's not show full screem, so in this we need to install **VMware Tool**:
+
+<img width="1917" height="980" alt="image" src="https://github.com/user-attachments/assets/5f74e0ff-8fe2-4839-8228-1080d22d19d6" />
+
+
+
+Go to **File Explorer**, then `Double-Click` on `Setup`:
+
+<img width="1012" height="762" alt="image" src="https://github.com/user-attachments/assets/51c2aaab-68b6-4ab6-a329-fbab00c0be7e" />
+
+
+<img width="982" height="742" alt="image" src="https://github.com/user-attachments/assets/0a19b736-3fee-4d8b-87cb-b4fe237c9db9" />
+
+
+<img width="496" height="392" alt="image" src="https://github.com/user-attachments/assets/f8d03d06-295f-4dc6-89c6-8da5d568018d" />
+
+
+
+<img width="496" height="387" alt="image" src="https://github.com/user-attachments/assets/617fa56b-5f5a-46bc-a3f1-95d7d20f5baa" />
+
+
+<img width="491" height="380" alt="image" src="https://github.com/user-attachments/assets/d9fd2b4d-2f0f-4689-9a9e-f78000855143" />
+
+
+After completed now we got full screen:
+
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/533b5ab1-f81d-4c54-94b7-cb7a026e74f5" />
+
+
+
+Then just click on **Finish** then **Yes** to restart.
+
+
+After restart then login back.
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/bf598808-9043-4345-aaa3-0208f48fc744" />
+
+
+
+Now we got windows 11:
+
+<img width="1917" height="942" alt="image" src="https://github.com/user-attachments/assets/a20287ea-f7bf-4f3f-a810-03d35ec33dca" />
+
+
+
+Now we got successful to setup Windows 11 Pro on VMware.
+
+------
